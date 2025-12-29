@@ -1,0 +1,53 @@
+{
+  "_resourceType": "actor",
+  "id": "c05c3965-f31e-4b5b-8ddb-3a007aa9c514",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8502cf97-5cc7-45b8-b6f1-0bed2346f58e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_44",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I think there's\nsome kind of suit\nin that weird \ntemple."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "32cf610e-6651-4902-832f-f8570ee993ed"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 118,
+  "y": 12,
+  "_index": 2
+}

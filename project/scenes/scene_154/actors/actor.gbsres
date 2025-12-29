@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "bf8448aa-4043-49b6-81ca-43fc51e2e6d7",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0a2b4803-0831-4527-a96a-b0db8e04043a",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_74",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "To any person \nreading this:",
+          "You can walk\nthrough the spiky",
+          "thing, but only if\nit is upside down.",
+          "Be careful though."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e59634a3-788a-4391-ba9b-58741fa45a33"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 25,
+  "_index": 0
+}
