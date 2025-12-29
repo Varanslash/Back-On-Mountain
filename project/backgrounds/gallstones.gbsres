@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3fcc8c71-f5f4-4e7f-822c-8506b3c7956c",
+  "name": "gallstones",
+  "symbol": "bg_map_2025_10_16t200817_36",
+  "width": 20,
+  "height": 50,
+  "imageWidth": 160,
+  "imageHeight": 400,
+  "filename": "gallstones.png",
+  "tileColors": "",
+  "autoColor": false
+}

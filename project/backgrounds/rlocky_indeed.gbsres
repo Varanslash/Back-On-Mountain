@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64ef7793-7e8a-4328-8310-f09ee0f4dca5",
+  "name": "rlocky indeed",
+  "symbol": "bg_map_76_",
+  "width": 78,
+  "height": 18,
+  "imageWidth": 624,
+  "imageHeight": 144,
+  "filename": "rlocky indeed.png",
+  "tileColors": "0057c+",
+  "autoColor": false
+}

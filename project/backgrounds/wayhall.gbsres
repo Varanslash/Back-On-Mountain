@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5720b501-45f4-4d3f-b68c-8862519ab8fb",
+  "name": "wayhall",
+  "symbol": "bg_map_2025_10_15t193912_98",
+  "width": 54,
+  "height": 18,
+  "imageWidth": 432,
+  "imageHeight": 144,
+  "filename": "wayhall.png",
+  "tileColors": "",
+  "autoColor": false
+}

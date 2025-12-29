@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "71d6ec42-8f76-486c-8647-4dd9b8a2227d",
+  "name": "puzzle",
+  "symbol": "bg_map_2025_10_15t202939_29",
+  "width": 78,
+  "height": 38,
+  "imageWidth": 624,
+  "imageHeight": 304,
+  "filename": "puzzle.png",
+  "tileColors": ""
+}

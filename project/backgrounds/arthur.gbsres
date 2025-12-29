@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b4befac4-ccbd-456d-b347-1b34e376abe9",
+  "name": "arthur",
+  "symbol": "bg_arthur",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "arthur.png",
+  "tileColors": "",
+  "autoColor": false
+}

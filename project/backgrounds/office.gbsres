@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "25701aea-c164-45ae-801c-ebc3bccd2aee",
+  "name": "office",
+  "symbol": "bg_map_2025_10_15t184338_54",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "office.png",
+  "tileColors": "00125+05!0013+05!002e+",
+  "autoColor": false
+}
