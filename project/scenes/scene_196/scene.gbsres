@@ -1,0 +1,99 @@
+{
+  "_resourceType": "scene",
+  "id": "a8f60bd5-95bd-4165-8fc6-5d93b84cda42",
+  "_index": 195,
+  "name": "Scene 196",
+  "backgroundId": "20f5b003-065f-48f7-8b2f-3a5e9c72c80b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_196",
+  "x": 7336,
+  "y": 4656,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "99baa843-25fa-4a16-a959-fee8c4df2976"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "-----CREDITS-----",
+          "Developers:",
+          "MantiTheHedgehog\nWonderspacetime\n! Enahu64",
+          "Game Design:",
+          "MantiTheHedgehog",
+          "Story:",
+          "MantiTheHedgehog\nWonderspacetime",
+          "Music:",
+          "! Enahu64",
+          "Special Thanks:",
+          "vacantshade\nMindflower\nLoeder",
+          "Radnugget\nRedmooschrom\ncapriciousHobbyist",
+          "2bitcrook\nZonebooth\nGoblinHeath",
+          "Colony.\nMico27\nOmegadragnet7",
+          "And thank you to \nall my playtesters\n!",
+          "And finally...",
+          "You!",
+          "The player!",
+          "Thanks for\nplaying!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f2a9fe8d-ff44-46a1-be2b-d9644e19c032"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "573f37bf-95c1-4a6f-a2e4-feb7c9bdcf39"
+      },
+      "id": "5242fedb-407e-44f6-814f-01b52d56b046"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7e6d60d2-4883-4669-9b9d-35f460285b13",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "f65a309a-8442-4ef2-ac58-5b2841388577"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

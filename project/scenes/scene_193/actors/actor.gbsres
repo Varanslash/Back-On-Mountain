@@ -1,0 +1,99 @@
+{
+  "_resourceType": "actor",
+  "id": "40868982-5b5d-484b-99c2-1d850793bebc",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a6d8cf95-a2d3-4734-beb1-588d1e535ac6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_89",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello.",
+          "Don't you remember\nme?",
+          "Yes, yes.",
+          "I gave you the \nfeather.",
+          "We meet now.",
+          "My name is Colton.",
+          "Yes, yes.",
+          "I did coerce\nWonati and Kali\ninto this.",
+          "My plan was to\nconvert the\nmountain into the\n\"crazies\".",
+          "I did it to save\nus all.",
+          "We are all free.",
+          "But with feeling\ncomes despair.",
+          "Sadness.",
+          "Suicide.",
+          "Having no emotion,\nworshipping only\nme...",
+          "I thought it would\nbe the solution.",
+          "But no.",
+          "It was not.",
+          "I was thinking in\ndelusion.",
+          "I made you kill\ntwo innocent\npeople.",
+          "I have done a\nwrong.",
+          "Wrongs must be\npunished.",
+          "So you may kill\nme.",
+          "Goodbye, Kaizo.",
+          "I hope you can\nforgive me.",
+          "Heh heh.",
+          "SLASH!",
+          "Colton is dead.",
+          "Isn't this what \nyou wanted?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5d5151a7-d462-4787-977e-06fef0c798e6"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "36cb34e2-c881-486c-9bf7-1f2796e3e391"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "29",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "2f1cc795-8ea6-4996-b7b7-077b5d61e392"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 6,
+  "y": 63,
+  "_index": 0
+}

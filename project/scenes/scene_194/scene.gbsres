@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "e068f9f7-8c63-4742-9db6-1d42ae83ba4e",
+  "_index": 193,
+  "name": "Scene 194",
+  "backgroundId": "48555c6e-7322-487a-85d4-d9c6dd3ce554",
+  "tilesetId": "",
+  "width": 136,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+0084+0f4+002a4+0f34+006+0f82+006+0f4e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_194",
+  "x": 6072,
+  "y": 4656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
