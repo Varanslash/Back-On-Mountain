@@ -1,0 +1,138 @@
+{
+  "_resourceType": "actor",
+  "id": "eb5959c4-03d3-4dd4-99da-a3be3a4e647c",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7fef1641-7617-4651-a97a-202607bbfec4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_82",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "26"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hey there! Where's\nWonati?",
+                "...",
+                "...huh?",
+                "Wonati's in a\ncult?",
+                "Is it the Shadow\nBrokers?",
+                "Oh.. So it is.",
+                "One of them tried\nto get me to join\ntoo.",
+                "They told me about\na place called the\nEther.",
+                "I said no and ran\naway.",
+                "But the Ether...\nit's a place to be\nreckoned with.",
+                "I think the other\nShadow Broker is\ndeeper in.",
+                "When you find and\nkill him, come\nback to the old\nhome.",
+                "I'll have \nsomething for you.",
+                "See you later."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4a4b1736-6b20-47b6-a07e-d63ce806c3ae"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "26",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "d606945e-df19-41fa-b614-dc9dc7ffdf50"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "1d2d3d1d-c81f-4aa5-b9aa-eadeef153e78"
+          }
+        ],
+        "false": []
+      },
+      "id": "9d95ddee-061a-4a89-b7e8-a32f369860ec"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "26"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "3ac871e8-a703-4a9a-a740-aa866519691f"
+          }
+        ],
+        "false": []
+      },
+      "id": "6122cd4b-09bf-409a-9507-fb0015c517c6"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 37,
+  "_index": 0
+}
