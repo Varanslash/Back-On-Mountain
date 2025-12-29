@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "8565f710-785f-4d12-ad6d-851b2a205244",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a4d59560-8da2-4eb7-8fa9-95e4295532dd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_65",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Here lies Tammy\nSr.",
+          "\"I hope my son can\ncarry my legacy on\n.\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c36a731b-ead4-49dd-8cd2-078836b4e013"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 15,
+  "_index": 0
+}

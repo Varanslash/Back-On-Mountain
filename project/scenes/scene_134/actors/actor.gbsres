@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "f1e525d9-deec-4584-8004-261e759b5133",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "34a256c4-77e0-45bb-9cd6-cc5de119ff2f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_62",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hey man. I give\npeople counters.",
+          "You want a\ncounter?",
+          "Here, just take\nit.",
+          "I don't care\nanymore."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2a50575c-7b4d-44d0-97e1-f11c11369d9a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e39602e0-d3cd-4355-8d23-a7d3e6faebc7"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 50,
+  "y": 15,
+  "_index": 0
+}
