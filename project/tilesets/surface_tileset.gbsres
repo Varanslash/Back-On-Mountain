@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0f11c466-2b43-4766-aede-fbd52c40eb06",
+  "name": "Surface Tileset",
+  "symbol": "tileset_map_2025_10_14t1909",
+  "width": 16,
+  "height": 14,
+  "imageWidth": 128,
+  "imageHeight": 112,
+  "filename": "Surface Tileset.png"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "d804f3b5-37b6-4055-a1bb-6080e99213bb",
+  "name": "Town Tileset",
+  "symbol": "tileset_map_2025_10_14t1922",
+  "width": 38,
+  "height": 18,
+  "imageWidth": 304,
+  "imageHeight": 144,
+  "filename": "Town Tileset.png"
+}

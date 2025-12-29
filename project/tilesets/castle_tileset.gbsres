@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "8f134a66-c194-4ae3-ba98-ac90c621fdf8",
+  "name": "Castle Tileset",
+  "symbol": "tileset_map_2025_10_14t1919",
+  "width": 38,
+  "height": 30,
+  "imageWidth": 304,
+  "imageHeight": 240,
+  "filename": "Castle Tileset.png"
+}

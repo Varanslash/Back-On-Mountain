@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "523cdb1e-d7ef-4444-99be-c69a6d711010",
+  "name": "Credits",
+  "symbol": "song_credits",
+  "filename": "Credits.uge",
+  "settings": {},
+  "type": "uge"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "51207000-bd14-43c7-8018-0a52e46bfda8",
+  "name": "Water Tileset",
+  "symbol": "tileset_map_2025_10_14t1920",
+  "width": 42,
+  "height": 28,
+  "imageWidth": 336,
+  "imageHeight": 224,
+  "filename": "Water Tileset.png"
+}
