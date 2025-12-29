@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b4cb80ca-34c6-4756-bcb3-4ae3712258c0",
+  "name": "wowie",
+  "symbol": "bg_map_2025_10_24t200202_50",
+  "width": 146,
+  "height": 18,
+  "imageWidth": 1168,
+  "imageHeight": 144,
+  "filename": "wowie.png",
+  "tileColors": "",
+  "autoColor": false
+}

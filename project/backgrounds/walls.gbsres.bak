@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "76c95a34-d967-46a6-aa81-40e86cb155fe",
+  "name": "walls",
+  "symbol": "bg_map_2025_10_25t123546_61",
+  "width": 178,
+  "height": 18,
+  "imageWidth": 1424,
+  "imageHeight": 144,
+  "filename": "walls.png",
+  "tileColors": ""
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c1fec941-4155-4029-b462-c86450a0b85c",
+  "name": "mazes",
+  "symbol": "bg_map_2025_10_25t094750_58",
+  "width": 132,
+  "height": 80,
+  "imageWidth": 1056,
+  "imageHeight": 640,
+  "filename": "mazes.png",
+  "tileColors": ""
+}

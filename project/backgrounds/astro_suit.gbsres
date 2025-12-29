@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "adb28e18-b5c0-430b-92e9-528a21d76067",
+  "name": "astro suit",
+  "symbol": "bg_map_2025_10_20t172531_10",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "astro suit.png",
+  "tileColors": "",
+  "autoColor": false
+}

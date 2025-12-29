@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "61ea1395-7123-4d57-b84b-79931482d1f3",
+  "name": "double spike",
+  "symbol": "bg_map_2025_10_25t185815_82",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "double spike.png",
+  "tileColors": "",
+  "autoColor": false
+}

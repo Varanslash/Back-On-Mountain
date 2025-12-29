@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9b4362ba-035a-4642-9d37-e9944a50d22e",
+  "name": "jumping puzzle",
+  "symbol": "bg_map_2025_10_18t092354_54",
+  "width": 22,
+  "height": 104,
+  "imageWidth": 176,
+  "imageHeight": 832,
+  "filename": "jumping puzzle.png",
+  "tileColors": "",
+  "autoColor": false
+}

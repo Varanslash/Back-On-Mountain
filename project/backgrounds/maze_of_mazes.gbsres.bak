@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4cf88bb8-f8d7-4f8b-98b3-1f4e0721300c",
+  "name": "maze of mazes",
+  "symbol": "bg_map_2025_10_20t185205_80",
+  "width": 90,
+  "height": 18,
+  "imageWidth": 720,
+  "imageHeight": 144,
+  "filename": "maze of mazes.png",
+  "tileColors": ""
+}

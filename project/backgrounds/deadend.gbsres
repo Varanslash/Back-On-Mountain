@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "83d1a62b-0135-45c1-b670-fc27e965dfb9",
+  "name": "deadend",
+  "symbol": "bg_map_2025_10_19t091705_67",
+  "width": 72,
+  "height": 18,
+  "imageWidth": 576,
+  "imageHeight": 144,
+  "filename": "deadend.png",
+  "tileColors": "001b9+85a+003e+85a+003e+858+0040+858+00277+",
+  "autoColor": false
+}

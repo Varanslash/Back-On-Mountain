@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3de3bbfc-a165-4233-be2a-61e74ce1ee36",
+  "name": "kali",
+  "symbol": "bg_map_2025_10_20t054659_05",
+  "width": 88,
+  "height": 18,
+  "imageWidth": 704,
+  "imageHeight": 144,
+  "filename": "kali.png",
+  "tileColors": "",
+  "autoColor": false
+}
