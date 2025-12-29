@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "57600b6b-921e-422e-985d-0fe4dc29e806",
+  "_index": 28,
+  "name": "Scene 29",
+  "backgroundId": "c0bfe69a-e98e-434b-bff3-f065e3fd60b4",
+  "tilesetId": "",
+  "width": 74,
+  "height": 30,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f6+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0f6+00a2+0fe+00e+0f2+002c+0fe+00e+0f2+001e+0f6+008+0fe+008+0f2+0010+0f2+00c+0fc+008+0fe+008+0f2+0010+0f2+00c+0fc+00a+0fa+002a+0fc+00a+0fa+002a+0fc+00c+0f4+002e+0fc+00c+0f4+002e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0fc+003e+0f6+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_29",
+  "x": 944,
+  "y": 2536,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "168e367f-6b05-410b-a829-0265f2c7581b"
+      },
+      "id": "9e9a095b-c27a-46e1-87fc-f007a52c49a5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eb87c59f-8a4a-4b0f-af38-3a53401f2fc0"
+      },
+      "id": "22cb5e42-2190-4cc4-9e52-dd35c7df229a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "00e2ecfa-3097-4410-bb95-f2f08fc0509c"
+      },
+      "id": "2c712091-91b8-445c-861f-5eb844a93c4f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

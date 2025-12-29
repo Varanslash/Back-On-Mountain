@@ -1,0 +1,69 @@
+{
+  "_resourceType": "actor",
+  "id": "42154dad-6a56-4950-993b-cb4492194dac",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3df5647c-b95d-4119-be27-52d8691b5903",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "90d8d5f5-02a1-4b1c-ac74-155fa012e280"
+      },
+      "id": "a5b7c909-6788-46d4-bf35-184980e4bc3a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hi! It's me,\nWonati!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2b02ee10-680f-456a-b158-310bbb12af2c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "3df5647c-b95d-4119-be27-52d8691b5903"
+      },
+      "id": "27da5716-81af-4ca5-b1c3-c7f595218b0a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 39,
+  "_index": 0
+}
