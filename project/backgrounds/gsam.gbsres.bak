@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0394c88e-88cf-4b7a-b45d-489147bcd86a",
+  "name": "gsam",
+  "symbol": "bg_map_2025_10_06t175624_33",
+  "width": 20,
+  "height": 80,
+  "imageWidth": 160,
+  "imageHeight": 640,
+  "filename": "gsam.png",
+  "tileColors": ""
+}

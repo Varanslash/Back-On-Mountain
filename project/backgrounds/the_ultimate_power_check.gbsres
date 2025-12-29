@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e6191489-6176-43bb-9315-bfbcd7d84e85",
+  "name": "the ultimate power check",
+  "symbol": "bg_map_2025_10_11t120443_90",
+  "width": 42,
+  "height": 18,
+  "imageWidth": 336,
+  "imageHeight": 144,
+  "filename": "the ultimate power check.png",
+  "tileColors": "002f4+",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ae57ac31-1a29-448b-babb-7ed6ff1d1e12",
+  "name": "jumpwalling",
+  "symbol": "bg_map_2025_10_07t202633_88",
+  "width": 20,
+  "height": 42,
+  "imageWidth": 160,
+  "imageHeight": 336,
+  "filename": "jumpwalling.png",
+  "tileColors": "",
+  "autoColor": false
+}

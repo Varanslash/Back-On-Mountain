@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c203906f-382e-4469-9606-2fc77f4e4e84",
+  "name": "clubstep",
+  "symbol": "bg_map_2025_10_11t121946_20",
+  "width": 34,
+  "height": 18,
+  "imageWidth": 272,
+  "imageHeight": 144,
+  "filename": "clubstep.png",
+  "tileColors": "04264+",
+  "autoColor": false
+}

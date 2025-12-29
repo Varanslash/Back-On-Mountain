@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c8c0d630-108f-4257-8342-74c922c9142b",
+  "name": "sgam",
+  "symbol": "bg_map_2025_10_06t181654_94",
+  "width": 20,
+  "height": 46,
+  "imageWidth": 160,
+  "imageHeight": 368,
+  "filename": "sgam.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "db971cc0-bbbc-49c7-97a6-b28d82a428c8",
+  "name": "saving at the point",
+  "symbol": "bg_saving_at_the_point",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "saving at the point.png",
+  "tileColors": "",
+  "autoColor": false
+}

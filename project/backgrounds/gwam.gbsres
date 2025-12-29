@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "45139fc3-a982-41f9-8654-c4b631e2a2b4",
+  "name": "gwam",
+  "symbol": "bg_map_2025_10_07t191238_89",
+  "width": 20,
+  "height": 42,
+  "imageWidth": 160,
+  "imageHeight": 336,
+  "filename": "gwam.png",
+  "tileColors": "",
+  "autoColor": false
+}

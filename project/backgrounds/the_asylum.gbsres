@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "09e029c6-1c2d-4fcc-8bf7-9be7ea282fe7",
+  "name": "the asylum",
+  "symbol": "bg_map_2025_10_12t112619_21",
+  "width": 76,
+  "height": 18,
+  "imageWidth": 608,
+  "imageHeight": 144,
+  "filename": "the asylum.png",
+  "tileColors": "",
+  "autoColor": false
+}

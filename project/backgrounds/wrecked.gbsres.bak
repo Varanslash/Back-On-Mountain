@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "459c9563-18fa-45e1-b232-b70f87b10dc4",
+  "name": "wrecked",
+  "symbol": "bg_map_2025_10_07t194603_57",
+  "width": 32,
+  "height": 18,
+  "imageWidth": 256,
+  "imageHeight": 144,
+  "filename": "wrecked.png",
+  "tileColors": ""
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b664f9b7-1c27-4ad0-b5e8-21831b513c99",
+  "name": "slabbin",
+  "symbol": "bg_slabbin",
+  "width": 24,
+  "height": 46,
+  "imageWidth": 192,
+  "imageHeight": 368,
+  "filename": "slabbin.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f54e0dbe-3454-474b-9c71-21f82c883ddd",
+  "name": "big laser room",
+  "symbol": "bg_map_2025_10_08t192759_67",
+  "width": 64,
+  "height": 44,
+  "imageWidth": 512,
+  "imageHeight": 352,
+  "filename": "big laser room.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ff9f79b7-a74b-439d-aaac-21993fe46824",
+  "name": "the room of room",
+  "symbol": "bg_map_2025_10_11t083930_89",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "the room of room.png",
+  "tileColors": "",
+  "autoColor": false
+}

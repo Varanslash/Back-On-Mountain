@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "feb154f7-482a-4bb6-bcce-528e201879ae",
+  "name": "entrance to the new room",
+  "symbol": "bg_map_2025_10_11t204359_32",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "entrance to the new room.png",
+  "tileColors": "",
+  "autoColor": false
+}

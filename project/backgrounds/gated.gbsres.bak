@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9e2cb2f8-e45c-45cd-b2b6-a482e05a3adc",
+  "name": "gated",
+  "symbol": "bg_map_2025_10_11t210003_92",
+  "width": 36,
+  "height": 18,
+  "imageWidth": 288,
+  "imageHeight": 144,
+  "filename": "gated.png",
+  "tileColors": ""
+}

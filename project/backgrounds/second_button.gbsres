@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "db67709e-14e8-47bd-9a31-d455f0b2b661",
+  "name": "second button",
+  "symbol": "bg_map_2025_10_06t182310_81",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "second button.png",
+  "tileColors": "",
+  "autoColor": false
+}
