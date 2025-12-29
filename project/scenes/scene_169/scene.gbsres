@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "9e71f2a4-8b07-448e-a8ce-2a0bba841ccd",
+  "_index": 168,
+  "name": "Scene 169",
+  "backgroundId": "3fcc8c71-f5f4-4e7f-822c-8506b3c7956c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 50,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "cc4bf322-484f-4333-a9a2-00bcbe40a5f2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f28+0050+0f4+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0fa+008+0fc+008+0fa+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0fa+00a+0fa+00a+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+0010+0f4+0010+0f4+0010+0f4+0010+0f28+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_169",
+  "x": 4864,
+  "y": 3592,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eb87c59f-8a4a-4b0f-af38-3a53401f2fc0"
+      },
+      "id": "44ff5f94-849b-43cf-8bb7-57d2ff593c0a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

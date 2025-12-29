@@ -1,0 +1,71 @@
+{
+  "_resourceType": "scene",
+  "id": "c887088d-f0ab-424d-be47-9ce7a8478a2c",
+  "_index": 145,
+  "name": "Scene 146",
+  "backgroundId": "feacfad9-6c17-45fa-9372-ed6a5b757f3c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_146",
+  "x": 2152,
+  "y": 128,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ffd0e76c-59ce-4b63-b888-ce8b685e2e1b"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e200b073-7d16-43bb-afd8-e4a5ccc00d09"
+      },
+      "id": "5bd652ac-5dbc-4fd2-a63e-1045c08805f0"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "29696c5b-62da-4b1d-b562-0ef7ba467dd9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "92e2f49a-0ef1-432d-bd96-d1bf555106d1",
+        "x": {
+          "type": "number",
+          "value": 59
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "53ceb6c1-2d89-4ef8-ab19-068e2f694beb"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4d7f7baa-2013-4767-97fc-39f4dfa9a71e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

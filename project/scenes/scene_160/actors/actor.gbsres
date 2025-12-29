@@ -1,0 +1,173 @@
+{
+  "_resourceType": "actor",
+  "id": "9e3fd537-5668-4f78-808e-14f9d0a3a707",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3df5647c-b95d-4119-be27-52d8691b5903",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_78",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "24"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Hello there,\nKaizo.",
+                      "By now you should\nknow about our",
+                      "plans.",
+                      "Have you ever seen\nthe Matrix?",
+                      "The main characte-\nrs have a choice",
+                      "between ignorant\nbliss and to know",
+                      "everything.",
+                      "They chose the\nlatter.",
+                      "They chose to be\nthe heroes.",
+                      "I don't want you\nto do the same.",
+                      "You should just\nsit back and rela-",
+                      "-wait, what is\nthat?",
+                      "Why do you have\nColto-",
+                      "SLASH!",
+                      "Wonati sits there,\ndead on the floor."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e6995cdb-9c10-4991-926d-db5046fd5e40"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "c3256c57-7bf3-4a19-9a70-590de9671f7d"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "24",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "62bc7d82-55ff-4cf3-93a7-c9b35708f153"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "19",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "f2b7da11-1d7c-43b6-be5c-184497d1e316"
+                }
+              ],
+              "false": []
+            },
+            "id": "91448fa1-75b6-4ae4-9c54-c97dbcbc0384"
+          }
+        ],
+        "false": []
+      },
+      "id": "f153b6dc-22ec-4818-84ad-881d3a23bdee"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "24"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f825bb12-d8e8-402e-87ff-de461a2ff08f"
+          }
+        ],
+        "false": []
+      },
+      "id": "586d4b8c-a1e9-41c0-84fc-37bccb815600"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 15,
+  "_index": 0
+}
