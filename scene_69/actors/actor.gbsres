@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "4c454f8c-82f9-4335-a3b4-c5aaf76ecf4f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "202d8197-ebc1-4895-932b-abb24559289f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_38",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Recently we added\nstreetlights.",
+          "They don't really\nhelp at all."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "980df0f2-b6a4-468c-a8c8-34224e25cd03"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 42,
+  "y": 15,
+  "_index": 0
+}
