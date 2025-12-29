@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd2a7c9c-e8b9-4912-87bc-2bc644ea4454",
+  "name": "i like fake walls",
+  "symbol": "bg_map_7_",
+  "width": 26,
+  "height": 56,
+  "imageWidth": 208,
+  "imageHeight": 448,
+  "filename": "i like fake walls.png",
+  "tileColors": "",
+  "autoColor": false
+}

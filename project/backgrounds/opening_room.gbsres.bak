@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9141abb0-8a52-4aa8-919d-73e512b2afdb",
+  "name": "opening room",
+  "symbol": "bg_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "opening room.png",
+  "autoColor": false,
+  "tileColors": ""
+}

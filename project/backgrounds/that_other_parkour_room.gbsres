@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f511e5b8-e1ab-4eb9-8ea9-69e04589cfa4",
+  "name": "that other parkour room",
+  "symbol": "bg_map_13_",
+  "width": 28,
+  "height": 36,
+  "imageWidth": 224,
+  "imageHeight": 288,
+  "filename": "that other parkour room.png",
+  "tileColors": "",
+  "autoColor": false
+}
