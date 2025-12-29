@@ -1,0 +1,97 @@
+{
+  "_resourceType": "actor",
+  "id": "fa4f8e67-776a-40f7-a081-93e392a0f3cd",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1928914-7ee2-46cb-a00d-2552816fc6aa",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_54",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "cfab35b1-7a0b-481a-925b-7178328095eb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "c9c25710-6b87-4127-b81f-70aeecff6f91"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "de85ac61-064c-40cb-88fa-0689d8c1087c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I have been\ntrapped here for\nso long...",
+          "So very long...",
+          "He put me here to\nprotect his most \nvaluable item.",
+          "But it's too late\nfor him.",
+          "You may have it.",
+          "I have gifted you\nthe Barrier Suit.",
+          "It allows the \nwearer to be\nshielded from ",
+          "outside damage.",
+          "It also enables\njumping on walls.",
+          "Now, I wish you \nluck, adventurer.",
+          "May you fulfill\nyour goals.",
+          "Whatever they may\nbe."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6da12b83-9e8f-410c-bcef-4b6112fbfe4a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 41,
+  "y": 9,
+  "_index": 0
+}
