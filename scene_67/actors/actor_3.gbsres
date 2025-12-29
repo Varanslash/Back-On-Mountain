@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "f53886f3-4cc1-4d2a-8b68-61186e013bec",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1928914-7ee2-46cb-a00d-2552816fc6aa",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_33",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I sell drugs.",
+          "No, you can't\nhave any.",
+          "That's because I\ndon't sell drugs."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ce9e1685-988d-4b58-ab49-b792a720720d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 32,
+  "y": 15,
+  "_index": 2
+}
