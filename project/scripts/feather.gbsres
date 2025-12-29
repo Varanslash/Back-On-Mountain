@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "f322a3b4-c1e4-49ad-a0ac-c45f3e117c68",
+  "name": "Feather",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_float_input",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "a076e4ad-79a6-45b2-af35-0ec2092c6392"
+          }
+        ],
+        "false": []
+      },
+      "id": "b450c7be-4794-4bdd-8717-fb9377f9a6e5"
+    }
+  ]
+}

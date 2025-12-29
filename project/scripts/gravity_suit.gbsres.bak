@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "167100de-d4ab-4f5f-9a8f-5a8f207a804c",
+  "name": "Gravity Suit",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "f4392ed0-7135-49e0-9553-d1ae4c6ec7f3"
+            },
+            "id": "dc11ae4e-ebfe-4207-82bd-ba843925e9ee"
+          }
+        ],
+        "false": []
+      },
+      "id": "85ffc9ce-1c96-414c-bd82-3c4195d9018d"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "_resourceType": "script",
+  "id": "7f256f83-962f-4264-be7c-afdd0c3ae11a",
+  "name": "Ice Environment",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ENGINE_FIELD_SET",
+                  "args": {
+                    "engineFieldKey": "plat_dec"
+                  },
+                  "id": "01c28373-5b98-4cdd-a7b9-acb6d10a1d7c"
+                }
+              ],
+              "false": []
+            },
+            "id": "69ddb169-b5ad-4481-a467-5941fc0d5f14"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_dec",
+              "value": {
+                "type": "number",
+                "value": 768
+              }
+            },
+            "id": "f96941d4-5d93-4ddb-8aa1-abc3adb7c30e"
+          }
+        ],
+        "false": []
+      },
+      "id": "0ba1a469-b7c9-4b6f-815f-cb41b1a9ba6e"
+    }
+  ]
+}

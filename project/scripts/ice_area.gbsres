@@ -1,0 +1,76 @@
+{
+  "_resourceType": "script",
+  "id": "432a8f28-9726-4bd7-94c4-3211368894fc",
+  "name": "Ice Area",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ENGINE_FIELD_SET",
+                  "args": {
+                    "engineFieldKey": "plat_dec"
+                  },
+                  "id": "c401b692-2dde-48e6-bdb5-96f2f86d44f4"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ENGINE_FIELD_SET",
+                  "args": {
+                    "engineFieldKey": "plat_dec",
+                    "value": {
+                      "type": "number",
+                      "value": 768
+                    }
+                  },
+                  "id": "82169db2-f143-41be-a1e1-c5a05ee93a02"
+                }
+              ]
+            },
+            "id": "8567488d-8395-4d86-92ad-fe4a0cc35ebf"
+          }
+        ],
+        "false": []
+      },
+      "id": "942528f6-bdae-4b7c-bfc5-0ebfe6783585"
+    }
+  ]
+}

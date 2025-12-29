@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "b3ca6567-bcc9-46c6-bb1c-2c926be6d2ba",
+  "name": "Gate Damage",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_14",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "14"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "644d5620-705e-40dd-a1d0-d56883af8339"
+            },
+            "id": "6e574000-7fd1-46df-8553-cc375d6110dd"
+          }
+        ],
+        "false": []
+      },
+      "id": "e34c7898-8179-4b28-a0b1-04e9b7f100c1"
+    }
+  ]
+}

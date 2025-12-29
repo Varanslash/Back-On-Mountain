@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "afca9f23-a8d6-4408-b5f2-a8d95b7596e0",
+  "name": "Gate5 Damage",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "22"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "644d5620-705e-40dd-a1d0-d56883af8339"
+            },
+            "id": "114aa95a-3752-42d5-9d5b-69482ecc4a24"
+          }
+        ],
+        "false": []
+      },
+      "id": "a5ea994e-dec4-4cc8-b0ff-62c4df8b27d4"
+    }
+  ]
+}

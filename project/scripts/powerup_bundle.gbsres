@@ -1,0 +1,115 @@
+{
+  "_resourceType": "script",
+  "id": "eb87c59f-8a4a-4b0f-af38-3a53401f2fc0",
+  "name": "Powerup Bundle",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6bcc3c5c-8dcc-4775-8846-0983bb896998",
+        "__collapse": true
+      },
+      "id": "dcbc13ef-11aa-4004-a481-21fd43e0d674"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "168e367f-6b05-410b-a829-0265f2c7581b",
+        "__collapse": true
+      },
+      "id": "7f530aab-b6fd-47a7-9269-b3c2efaab8de"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f322a3b4-c1e4-49ad-a0ac-c45f3e117c68",
+        "__collapse": true
+      },
+      "id": "c9fe3774-e4b0-4fb2-8302-e23d5134066a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "167100de-d4ab-4f5f-9a8f-5a8f207a804c",
+        "__collapse": true
+      },
+      "id": "e29eb279-86c8-4f43-8cd7-23891c63d6d7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "4c2e7b26-425f-4029-b000-a51192f9fb6e",
+        "__collapse": true
+      },
+      "id": "561e1ff7-4bc9-46c6-891a-aece2e447f9b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "73f8ec5e-e43d-498c-8413-cad9b233926f",
+        "__collapse": true
+      },
+      "id": "2aabeafd-a0f8-487e-ad84-fff1b0281aaf"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c6c12134-eaae-445d-83cb-8b2cab15926e",
+        "__collapse": true
+      },
+      "id": "1525586e-7766-409f-a9ad-170be5a46bb5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "00e2ecfa-3097-4410-bb95-f2f08fc0509c",
+        "__collapse": true
+      },
+      "id": "d1c9885c-45d4-4f32-9cbc-0ad75734319a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "432a8f28-9726-4bd7-94c4-3211368894fc",
+        "__collapse": true
+      },
+      "id": "34eab3ea-5d36-4286-a8a9-26365fa97018"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5dd7c155-4bf2-4df3-9ab8-3f1a2e00c51e",
+        "__collapse": true
+      },
+      "id": "552dbfc1-1d65-4d21-a819-ee44fdd4043f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a614508e-6bd2-4fe3-8099-57a830e5e44d",
+        "__collapse": true
+      },
+      "id": "a3b6a6cf-a19a-4309-8947-699f0e0f1ec3"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "365937ee-951d-485c-873e-1d2d66c3b62e",
+        "__collapse": true
+      },
+      "id": "2642d3aa-c34c-4a9a-8b78-e230c853acff"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1d6da485-250e-4a86-a769-2582448fb0e2",
+        "__collapse": true
+      },
+      "id": "4ceeb523-4c3c-476d-beaf-3241e9ea80e9"
+    }
+  ]
+}

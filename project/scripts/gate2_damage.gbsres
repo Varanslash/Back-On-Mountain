@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "c31ef2b5-b6fe-4cf6-be82-7e48efc144ba",
+  "name": "Gate2 Damage",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "15"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "644d5620-705e-40dd-a1d0-d56883af8339"
+            },
+            "id": "470494c8-ec14-4b42-8428-f305273d5115"
+          }
+        ],
+        "false": []
+      },
+      "id": "6f6ac81a-3e05-47d1-957c-2b381df1de08"
+    }
+  ]
+}

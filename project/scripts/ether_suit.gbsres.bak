@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "365937ee-951d-485c-873e-1d2d66c3b62e",
+  "name": "Ether Suit",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_22",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "28"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "8f394a0b-f84f-464f-9a13-565eab298e5d"
+            },
+            "id": "db19c380-b26f-4bdb-b97e-1145200d03c5"
+          }
+        ],
+        "false": []
+      },
+      "id": "5f53e5dd-dd27-40c8-bd02-a195c60cd405"
+    }
+  ]
+}

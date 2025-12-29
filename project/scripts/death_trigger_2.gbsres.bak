@@ -1,0 +1,159 @@
+{
+  "_resourceType": "script",
+  "id": "1fb009dc-e3ba-4cdd-943f-50a676ee359b",
+  "name": "Death Trigger 2",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_24",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "31"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "97a02b92-00af-431f-ae80-afe82c0ed8f5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "23",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "62972dab-6b0f-490b-9512-a7c141efc5ce"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "25",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "fab0ec86-a203-4d34-875e-a66531bc82ab"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "41ac7f20-73ea-4dbc-b226-51d52b2555d0",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "1a10a062-ce57-436d-8330-c6a76481c300"
+          }
+        ],
+        "false": []
+      },
+      "id": "dd6aa957-89d1-47aa-a2b1-a16d4b9c797b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "31"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "d7b71856-e564-4e17-8e94-bcad14003920"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "23",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "23c52096-6896-4f40-a60f-23377cd54062"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "25",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "4febe997-a52d-405e-98f7-01c8cbf86588"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "479ced89-b12d-497f-9fb1-5801a3e95f28",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 43
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "aed82c16-87ce-40c7-b6a1-f486babb10ea"
+          }
+        ],
+        "false": []
+      },
+      "id": "07ca0319-a278-47ef-945b-55cb3ae47ed8"
+    }
+  ]
+}

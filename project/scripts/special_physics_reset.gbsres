@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "b6d3accd-8544-4386-a1be-f499fcd61e03",
+  "name": "Special Physics Reset",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_21",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "23",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7f34f7d3-5c7c-4ccb-b4dc-b5bfbfc625fb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "b274aaaf-2da5-4518-885e-2a5183b26aa8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "25",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "d305ebda-1bd8-4232-af87-028d8466f12f"
+    }
+  ]
+}

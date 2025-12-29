@@ -1,0 +1,77 @@
+{
+  "_resourceType": "script",
+  "id": "c6c12134-eaae-445d-83cb-8b2cab15926e",
+  "name": "Pause Game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "11",
+              "items": 2,
+              "option1": " ",
+              "option2": " ",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue"
+            },
+            "id": "ca453c2f-200f-4b42-8287-a52c75649309"
+          }
+        ]
+      },
+      "id": "04502575-d6d8-434a-824d-383570ad6b0a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "11"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "18b600be-fefd-49e4-9727-26d0cc538fec"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "11"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "b01877d8-af9d-400b-a641-d47b7fd35650"
+    }
+  ]
+}

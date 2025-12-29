@@ -1,0 +1,60 @@
+{
+  "_resourceType": "script",
+  "id": "86373fb5-4b2c-4d3b-ae30-ab729cb1ee35",
+  "name": "High Jump",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "up"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ENGINE_FIELD_SET",
+                  "args": {
+                    "engineFieldKey": "plat_hold_grav",
+                    "value": {
+                      "type": "number",
+                      "value": 400
+                    }
+                  },
+                  "id": "c6f9a6bd-02c2-4122-97bb-ce9f81557882"
+                }
+              ]
+            },
+            "id": "4bc49ac3-778a-4e6c-9598-f72f20ecdcc8"
+          }
+        ],
+        "false": []
+      },
+      "id": "1cfaac13-8558-4e27-97b4-3400539d5b1b"
+    }
+  ]
+}

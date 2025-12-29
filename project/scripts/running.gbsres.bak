@@ -1,0 +1,48 @@
+{
+  "_resourceType": "script",
+  "id": "168e367f-6b05-410b-a829-0265f2c7581b",
+  "name": "Running",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": []
+            },
+            "id": "1b8b42df-86b9-4481-bac9-ff3a274f15ec"
+          }
+        ],
+        "false": []
+      },
+      "id": "40e45849-5faf-4d71-981d-ee892f2898b4"
+    }
+  ]
+}

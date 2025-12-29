@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "7c727f20-e983-4fb6-a453-92e006e99d50",
+  "name": "Environment Damage",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "644d5620-705e-40dd-a1d0-d56883af8339"
+            },
+            "id": "ffd67886-6094-4fcd-a1cc-cff23c2eb12c"
+          }
+        ],
+        "false": []
+      },
+      "id": "4be21bf7-9a64-478a-b400-5d331613380a"
+    }
+  ]
+}

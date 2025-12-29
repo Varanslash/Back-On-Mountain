@@ -1,0 +1,68 @@
+{
+  "_resourceType": "script",
+  "id": "a614508e-6bd2-4fe3-8099-57a830e5e44d",
+  "name": "Gravity Weigh Down",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "23"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ENGINE_FIELD_SET",
+                  "args": {
+                    "engineFieldKey": "plat_hold_grav",
+                    "value": {
+                      "type": "number",
+                      "value": 700
+                    }
+                  },
+                  "id": "438912fc-ba11-4355-a832-b21cf91ff30b"
+                }
+              ],
+              "false": []
+            },
+            "id": "1bdd11f6-c040-44ca-9dd0-376719e28413"
+          }
+        ],
+        "false": []
+      },
+      "id": "9d0c185f-f28f-4ec3-b6d2-1f20ef19a6aa"
+    }
+  ]
+}

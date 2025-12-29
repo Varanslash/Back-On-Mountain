@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "bb4eac86-c59c-44e0-bbaf-c1cdff79f8fa",
+  "name": "spacejump",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_25",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "33"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_extra_jumps",
+              "value": {
+                "type": "number",
+                "value": 255
+              }
+            },
+            "id": "24a5cac6-2e67-4c14-b1e5-fba734a48df2"
+          }
+        ],
+        "false": []
+      },
+      "id": "7787d061-d98c-43ba-9f9c-080fa19bf492"
+    }
+  ]
+}

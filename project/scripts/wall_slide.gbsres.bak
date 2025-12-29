@@ -1,0 +1,126 @@
+{
+  "_resourceType": "script",
+  "id": "b2b10179-7905-446c-9245-31b33f49df66",
+  "name": "Wall Slide",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_16",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOOP",
+                  "args": {},
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IDLE",
+                        "args": {},
+                        "id": "e041464e-67e0-4abd-bee7-360f9661634d"
+                      },
+                      {
+                        "command": "EVENT_IF_INPUT",
+                        "args": {
+                          "input": [
+                            "b"
+                          ],
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ENGINE_FIELD_SET",
+                              "args": {
+                                "engineFieldKey": "plat_wall_slide",
+                                "value": {
+                                  "type": "number",
+                                  "value": 1
+                                }
+                              },
+                              "id": "dd44d118-545c-4fc3-8cac-e0731a6dcb4e"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ENGINE_FIELD_SET",
+                              "args": {
+                                "engineFieldKey": "plat_wall_slide",
+                                "value": {
+                                  "type": "number",
+                                  "value": 1
+                                }
+                              },
+                              "id": "d8a3d95e-9801-421f-9ad3-81a0f6116ca7"
+                            },
+                            {
+                              "command": "EVENT_WAIT",
+                              "args": {
+                                "time": 0.5,
+                                "frames": 30
+                              },
+                              "id": "ade3724b-c3bf-49da-b32f-f054fb354259"
+                            },
+                            {
+                              "command": "EVENT_ENGINE_FIELD_SET",
+                              "args": {
+                                "engineFieldKey": "plat_wall_slide"
+                              },
+                              "id": "16c53e7b-943d-4870-b9e4-feab09bb2c09"
+                            },
+                            {
+                              "command": "EVENT_IDLE",
+                              "args": {},
+                              "id": "95217b4d-77b3-4e48-84a9-3e15133a2784"
+                            },
+                            {
+                              "command": "EVENT_STOP",
+                              "args": {},
+                              "id": "a6088b73-94dc-4241-802c-3df721ee2dc9"
+                            }
+                          ]
+                        },
+                        "id": "88f0797d-5110-4599-8474-eb60364e48bc"
+                      }
+                    ]
+                  },
+                  "id": "9dd887b4-495f-4b48-b8a0-c81020c0243d"
+                }
+              ]
+            },
+            "id": "48215ef6-20e3-4822-b166-fc59abba5c2a"
+          }
+        ],
+        "false": []
+      },
+      "id": "81a48ea7-c81e-447c-8bef-4c63d95f3e56"
+    }
+  ]
+}

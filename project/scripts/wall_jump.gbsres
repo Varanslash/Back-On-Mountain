@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "4c2e7b26-425f-4029-b000-a51192f9fb6e",
+  "name": "Wall Jump",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_wall_jump_max",
+              "value": {
+                "type": "number",
+                "value": 255
+              }
+            },
+            "id": "0249ca69-d6e7-4ec4-93f2-11897225a1d6"
+          }
+        ],
+        "false": []
+      },
+      "id": "273bc782-645d-483f-a228-f5e710a91766"
+    }
+  ]
+}

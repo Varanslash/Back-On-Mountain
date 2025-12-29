@@ -1,0 +1,111 @@
+{
+  "_resourceType": "script",
+  "id": "1d6da485-250e-4a86-a769-2582448fb0e2",
+  "name": "Water Physics",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_20",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "25"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_hold_grav",
+              "value": {
+                "type": "number",
+                "value": 700
+              }
+            },
+            "id": "cfecd85a-8912-43be-b70b-a2a41ca0f530"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_grav",
+              "value": {
+                "type": "number",
+                "value": 1200
+              }
+            },
+            "id": "6f9cddc0-49f2-4b00-ba31-274765adf338"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_hold_grav",
+              "value": {
+                "type": "number",
+                "value": 700
+              }
+            },
+            "id": "915d662c-53bf-46f9-b574-eddb7fb72f72"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_run_vel",
+              "value": {
+                "type": "number",
+                "value": 6400
+              }
+            },
+            "id": "6f347a4b-e11f-4aa7-b772-b0e1c31e9dd6"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_run_acc",
+              "value": {
+                "type": "number",
+                "value": 128
+              }
+            },
+            "id": "da4b34de-1b5c-4860-903f-2a5d1e78a994"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_walk_acc",
+              "value": {
+                "type": "number",
+                "value": 91
+              }
+            },
+            "id": "09ccfbff-a9e5-4c20-95cf-a0451cec8a2a"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_walk_vel",
+              "value": {
+                "type": "number",
+                "value": 4600
+              }
+            },
+            "id": "538c6a14-0afd-4bd1-a7ee-f8c05ea1ac68"
+          }
+        ],
+        "false": []
+      },
+      "id": "32a0844d-c131-4347-ae17-ce36e75ece01"
+    }
+  ]
+}
