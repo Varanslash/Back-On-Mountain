@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c0bfe69a-e98e-434b-bff3-f065e3fd60b4",
+  "name": "run acquire room",
+  "symbol": "bg_map_35_",
+  "width": 74,
+  "height": 30,
+  "imageWidth": 592,
+  "imageHeight": 240,
+  "filename": "run acquire room.png",
+  "tileColors": "",
+  "autoColor": false
+}

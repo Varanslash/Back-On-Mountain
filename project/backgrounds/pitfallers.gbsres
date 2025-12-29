@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "699ec14e-714f-4321-a966-e83cc2eb2ceb",
+  "name": "pitfallers",
+  "symbol": "bg_map_17_",
+  "width": 20,
+  "height": 54,
+  "imageWidth": 160,
+  "imageHeight": 432,
+  "filename": "pitfallers.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "133c5000-d9f1-4ab5-8cef-f08d8d066e5b",
+  "name": "werterempty",
+  "symbol": "bg_map_64_",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "werterempty.png",
+  "tileColors": ""
+}

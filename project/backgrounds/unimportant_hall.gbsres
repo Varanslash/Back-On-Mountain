@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "df63b277-91ec-4aba-a131-d04533b06750",
+  "name": "unimportant hall",
+  "symbol": "bg_map_27_",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "unimportant hall.png",
+  "tileColors": "",
+  "autoColor": false
+}

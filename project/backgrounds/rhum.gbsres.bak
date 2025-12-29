@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a47fe5c7-bf16-4c53-8494-c9ed7f1cbcad",
+  "name": "rhum",
+  "symbol": "bg_map_52_",
+  "width": 56,
+  "height": 18,
+  "imageWidth": 448,
+  "imageHeight": 144,
+  "filename": "rhum.png",
+  "tileColors": ""
+}

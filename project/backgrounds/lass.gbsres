@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d9610cb4-b64e-44e0-91ab-56ac22df5c58",
+  "name": "lass",
+  "symbol": "bg_map_39_",
+  "width": 20,
+  "height": 44,
+  "imageWidth": 160,
+  "imageHeight": 352,
+  "filename": "lass.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fee2cacc-450f-4ea1-a77f-d503608b7025",
+  "name": "this hijump corridor",
+  "symbol": "bg_map_48_",
+  "width": 22,
+  "height": 44,
+  "imageWidth": 176,
+  "imageHeight": 352,
+  "filename": "this hijump corridor.png",
+  "tileColors": "",
+  "autoColor": false
+}

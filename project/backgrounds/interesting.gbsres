@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b6791dd0-4a84-4e77-b78c-376511490745",
+  "name": "interesting",
+  "symbol": "bg_map_32_",
+  "width": 46,
+  "height": 18,
+  "imageWidth": 368,
+  "imageHeight": 144,
+  "filename": "interesting.png",
+  "tileColors": "",
+  "autoColor": false
+}

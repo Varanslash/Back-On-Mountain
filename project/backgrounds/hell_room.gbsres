@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "af134257-bf19-4cf1-8f52-a7aad4a53210",
+  "name": "hell room",
+  "symbol": "bg_hell_room",
+  "width": 18,
+  "height": 54,
+  "imageWidth": 144,
+  "imageHeight": 432,
+  "filename": "hell room.png",
+  "tileColors": "",
+  "autoColor": false
+}

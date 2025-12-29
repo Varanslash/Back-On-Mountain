@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "49b9c923-0b9d-4b3d-ab8c-aa4054a2072c",
+  "name": "the corridor of corridors",
+  "symbol": "bg_map_0",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "the corridor of corridors.png",
+  "tileColors": "",
+  "autoColor": false
+}

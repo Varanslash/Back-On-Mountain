@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7218656c-6c14-4321-a00b-4e6945483e80",
+  "name": "vertical hall",
+  "symbol": "bg_map_42_",
+  "width": 20,
+  "height": 42,
+  "imageWidth": 160,
+  "imageHeight": 336,
+  "filename": "vertical hall.png",
+  "tileColors": "",
+  "autoColor": false
+}

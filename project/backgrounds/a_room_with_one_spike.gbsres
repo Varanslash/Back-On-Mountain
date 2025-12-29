@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f1fc8af7-e3fe-42a2-9871-ede980e4b23c",
+  "name": "a room with one spike",
+  "symbol": "bg_map_16_",
+  "width": 20,
+  "height": 54,
+  "imageWidth": 160,
+  "imageHeight": 432,
+  "filename": "a room with one spike.png",
+  "tileColors": "",
+  "autoColor": false
+}

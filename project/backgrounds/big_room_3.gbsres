@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bfe183d4-3f9d-4c29-b58c-d7d6e1dbf219",
+  "name": "big room 3",
+  "symbol": "bg_map_20_",
+  "width": 28,
+  "height": 34,
+  "imageWidth": 224,
+  "imageHeight": 272,
+  "filename": "big room 3.png",
+  "tileColors": "",
+  "autoColor": false
+}

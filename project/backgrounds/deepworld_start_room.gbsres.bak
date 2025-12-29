@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f1466d6b-4929-4099-a9af-c008efce2bd4",
+  "name": "deepworld start room",
+  "symbol": "bg_deepworld_start_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "deepworld start room.png",
+  "tileColors": ""
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ee9bc942-cc85-43f5-bdc2-6e931afb5007",
+  "name": "the second hijump shaft",
+  "symbol": "bg_map_53_",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "the second hijump shaft.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f25c27ad-4ff8-4860-96a0-3b2fdefdf56c",
+  "name": "a hall for connection",
+  "symbol": "bg_map_36_",
+  "width": 50,
+  "height": 20,
+  "imageWidth": 400,
+  "imageHeight": 160,
+  "filename": "a hall for connection.png",
+  "tileColors": "",
+  "autoColor": false
+}

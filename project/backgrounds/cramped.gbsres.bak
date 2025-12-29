@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e5641681-cab9-48cb-a292-4b07b82d6810",
+  "name": "cramped",
+  "symbol": "bg_map_54_",
+  "width": 32,
+  "height": 18,
+  "imageWidth": 256,
+  "imageHeight": 144,
+  "filename": "cramped.png",
+  "tileColors": ""
+}

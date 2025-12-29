@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "46bbd65a-7b7e-4625-9a4e-ac868758174e",
+  "name": "celeste-style room",
+  "symbol": "bg_map_25_",
+  "width": 20,
+  "height": 50,
+  "imageWidth": 160,
+  "imageHeight": 400,
+  "filename": "celeste-style room.png",
+  "tileColors": ""
+}

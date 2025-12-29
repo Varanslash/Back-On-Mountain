@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3de4536b-dacd-404d-86af-5b2fab0615c3",
+  "name": "hell room itr2",
+  "symbol": "bg_map_15_",
+  "width": 20,
+  "height": 54,
+  "imageWidth": 160,
+  "imageHeight": 432,
+  "filename": "hell room itr2.png",
+  "tileColors": "",
+  "autoColor": false
+}

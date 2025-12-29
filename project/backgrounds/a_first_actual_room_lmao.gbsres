@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd8e98dc-4232-4b5b-ab6d-7c361c0817ea",
+  "name": "a first actual room lmao",
+  "symbol": "bg_map_41_",
+  "width": 60,
+  "height": 20,
+  "imageWidth": 480,
+  "imageHeight": 160,
+  "filename": "a first actual room lmao.png",
+  "tileColors": "",
+  "autoColor": false
+}
