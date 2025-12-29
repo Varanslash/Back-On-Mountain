@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "c3971e5d-fae4-40e8-9018-3d114643a6e6",
+  "name": "",
+  "prefabId": "",
+  "x": 15,
+  "y": 8,
+  "symbol": "trigger_594",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "644d5620-705e-40dd-a1d0-d56883af8339"
+      },
+      "id": "ad5fd2a4-bc47-4724-96dc-ba8bca3d5a61"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}
