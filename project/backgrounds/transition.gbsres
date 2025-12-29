@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3ce63f36-9fda-4ab8-9361-a24f5d5cf75d",
+  "name": "transition",
+  "symbol": "bg_map_61_",
+  "width": 62,
+  "height": 18,
+  "imageWidth": 496,
+  "imageHeight": 144,
+  "filename": "transition.png",
+  "tileColors": "",
+  "autoColor": false
+}

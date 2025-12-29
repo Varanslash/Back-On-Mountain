@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "70530d01-4bad-4218-8ae8-5274ed301bfe",
+  "name": "caves trans",
+  "symbol": "bg_map_93_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "caves trans.png",
+  "tileColors": "",
+  "autoColor": false
+}

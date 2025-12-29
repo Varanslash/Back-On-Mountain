@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5625db00-faaf-4e19-b2a5-4c8a270f1cf9",
+  "name": "certainly a room",
+  "symbol": "bg_map_2025_10_04t213151_32",
+  "width": 20,
+  "height": 50,
+  "imageWidth": 160,
+  "imageHeight": 400,
+  "filename": "certainly a room.png",
+  "tileColors": "",
+  "autoColor": false
+}

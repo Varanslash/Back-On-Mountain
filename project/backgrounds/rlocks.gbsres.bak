@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3de30df6-db47-4a2c-8f2e-2344e266ad75",
+  "name": "rlocks",
+  "symbol": "bg_map_75_",
+  "width": 58,
+  "height": 56,
+  "imageWidth": 464,
+  "imageHeight": 448,
+  "filename": "rlocks.png",
+  "tileColors": "",
+  "autoColor": false
+}

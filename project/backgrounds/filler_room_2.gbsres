@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2c2891f7-c96c-49e3-a993-da9d8a6b499d",
+  "name": "filler room 2",
+  "symbol": "bg_map_60_",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176,
+  "filename": "filler room 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

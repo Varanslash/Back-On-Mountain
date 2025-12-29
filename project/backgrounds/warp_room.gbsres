@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1b43972b-efa1-463c-b781-4d8ca746206a",
+  "name": "WARP ROOM",
+  "symbol": "bg_map_77_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "WARP ROOM.png",
+  "tileColors": "",
+  "autoColor": false
+}

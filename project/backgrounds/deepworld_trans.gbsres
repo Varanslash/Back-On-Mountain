@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "86ddbd84-0932-42db-8227-13c025fd30ba",
+  "name": "deepworld trans",
+  "symbol": "bg_map_91_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "deepworld trans.png",
+  "tileColors": "",
+  "autoColor": false
+}

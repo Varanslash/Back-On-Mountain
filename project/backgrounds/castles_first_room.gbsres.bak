@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "21848f6a-3fc6-4e50-a6d3-5aa98e839435",
+  "name": "castle's first room",
+  "symbol": "bg_map_96_",
+  "width": 90,
+  "height": 18,
+  "imageWidth": 720,
+  "imageHeight": 144,
+  "filename": "castle's first room.png",
+  "tileColors": ""
+}

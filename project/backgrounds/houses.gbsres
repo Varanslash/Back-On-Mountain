@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d474a401-d1d8-4a6a-a3ee-a82e89d18d5f",
+  "name": "houses",
+  "symbol": "bg_map_88_",
+  "width": 44,
+  "height": 18,
+  "imageWidth": 352,
+  "imageHeight": 144,
+  "filename": "houses.png",
+  "tileColors": "",
+  "autoColor": false
+}

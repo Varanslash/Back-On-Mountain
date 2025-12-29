@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e8f04a48-746f-4d35-87a6-754f4c902cf8",
+  "name": "ladderint2",
+  "symbol": "bg_map_99_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ladderint2.png",
+  "tileColors": "",
+  "autoColor": false
+}

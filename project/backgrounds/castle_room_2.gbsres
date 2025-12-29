@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d7dfaf0c-7136-45a4-a253-ea908d7436d8",
+  "name": "castle room 2",
+  "symbol": "bg_map_2025_10_04t203805_24",
+  "width": 62,
+  "height": 42,
+  "imageWidth": 496,
+  "imageHeight": 336,
+  "filename": "castle room 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "feacfad9-6c17-45fa-9372-ed6a5b757f3c",
+  "name": "surface trans",
+  "symbol": "bg_map_92_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "surface trans.png",
+  "tileColors": "",
+  "autoColor": false
+}

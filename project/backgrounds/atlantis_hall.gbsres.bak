@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d59520d3-a4bd-4c2b-ae7f-2c98c9c7e1b1",
+  "name": "atlantis hall",
+  "symbol": "bg_map_68_",
+  "width": 20,
+  "height": 64,
+  "imageWidth": 160,
+  "imageHeight": 512,
+  "filename": "atlantis hall.png",
+  "tileColors": ""
+}

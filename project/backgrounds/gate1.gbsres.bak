@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c2d677c8-720f-4708-8c61-ae3d06c86f91",
+  "name": "gate1",
+  "symbol": "bg_map_2025_10_05t160304_97",
+  "width": 18,
+  "height": 36,
+  "imageWidth": 144,
+  "imageHeight": 288,
+  "filename": "gate1.png",
+  "tileColors": ""
+}
