@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "4e7d49e6-2aee-4295-8ade-f9d1d702a031",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8502cf97-5cc7-45b8-b6f1-0bed2346f58e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "His Majesty's\nsword lies here.",
+          "In the cold, icy\nruins."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c6501f09-f3a1-46fc-81b7-d6af7d1ea66e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 7,
+  "_index": 0
+}

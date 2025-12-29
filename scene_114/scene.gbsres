@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "55f6c974-b246-4f3f-af06-fb46524981bb",
+  "_index": 113,
+  "name": "Scene 114",
+  "backgroundId": "fd35d9b6-8eb8-4fd2-ae8a-df3bb7385d81",
+  "tilesetId": "",
+  "width": 50,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "028c02d0-88b9-47b8-86a4-33cfd05640c3"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f6+00e+0f2+0016+0fc+00e+0f2+0016+0fc+00e+0f2+0016+0fc+00e+0f2+0016+0f6+0014+0f2+0016+0f6+0014+0f2+0016+0f6+0014+0f2+006+0f2+006+0f6+002+0f6+0014+0f2+006+0f2+006+0f6+002+0fc+00e+0f2+00e+0f6+008+0f6+00e+0f2+00e+0f6+008+0f6+001e+0f6+008+0f6+001e+0f6+008+0f6+001e+0f6+002+0fc+001e+0f6+002+0fc+00a+0f2+006+0f2+00a+0f6+002+0fc+00a+0f2+006+0f2+00a+0f6+002+0fc+001e+0f6+002+0fc+001e+0f6+002+0fc+001e+0f6+002+0fc+001e+0f6+002+0f6+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_114",
+  "x": 3312,
+  "y": 6024,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eb87c59f-8a4a-4b0f-af38-3a53401f2fc0"
+      },
+      "id": "80501e89-bf3b-430a-af62-aae60f544f34"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
