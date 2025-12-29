@@ -1,0 +1,175 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Running",
+      "symbol": "var_running"
+    },
+    {
+      "id": "1",
+      "name": "Checkpoints",
+      "symbol": "var_checkpoints"
+    },
+    {
+      "id": "2",
+      "name": "High Jump",
+      "symbol": "var_high_jump"
+    },
+    {
+      "id": "3",
+      "name": "Varia Suit",
+      "symbol": "var_varia_suit"
+    },
+    {
+      "id": "4",
+      "name": "Feather",
+      "symbol": "var_feather"
+    },
+    {
+      "id": "5",
+      "name": "Title Screen",
+      "symbol": "var_title_screen"
+    },
+    {
+      "id": "6",
+      "name": "Double Jump",
+      "symbol": "var_double_jump"
+    },
+    {
+      "id": "7",
+      "name": "Gravity Suit",
+      "symbol": "var_gravity_suit"
+    },
+    {
+      "id": "8",
+      "name": "Wall Jump",
+      "symbol": "var_wall_jump"
+    },
+    {
+      "id": "9",
+      "name": "Wall Slide",
+      "symbol": "var_wall_slide"
+    },
+    {
+      "id": "10",
+      "name": "Ice Area",
+      "symbol": "var_ice_area"
+    },
+    {
+      "id": "11",
+      "name": "Pausing",
+      "symbol": "var_pausing"
+    },
+    {
+      "id": "12",
+      "name": "GravSuitNullify",
+      "symbol": "var_gravsuitnullify"
+    },
+    {
+      "id": "13",
+      "name": "Colt's Cryptic Message",
+      "symbol": "var_colt_s_cryptic_message"
+    },
+    {
+      "id": "14",
+      "name": "Gates1",
+      "symbol": "var_gates1"
+    },
+    {
+      "id": "15",
+      "name": "Gates2",
+      "symbol": "var_gates2"
+    },
+    {
+      "id": "16",
+      "name": "Colt's Sword",
+      "symbol": "var_colt_s_sword"
+    },
+    {
+      "id": "17",
+      "name": "That One Counter",
+      "symbol": "var_that_one_counter"
+    },
+    {
+      "id": "18",
+      "name": "idfk",
+      "symbol": "var_idfk"
+    },
+    {
+      "id": "19",
+      "name": "Gates3",
+      "symbol": "var_gates3"
+    },
+    {
+      "id": "20",
+      "name": "Gates4",
+      "symbol": "var_gates4"
+    },
+    {
+      "id": "21",
+      "name": "VariaSuitProtec",
+      "symbol": "var_variasuitprotec"
+    },
+    {
+      "id": "22",
+      "name": "Gates5",
+      "symbol": "var_gates5"
+    },
+    {
+      "id": "23",
+      "name": "Gravity Weight",
+      "symbol": "var_gravity_weight"
+    },
+    {
+      "id": "24",
+      "name": "is wonati dead?",
+      "symbol": "var_is_wonati_dead_"
+    },
+    {
+      "id": "25",
+      "name": "Water Physics",
+      "symbol": "var_water_physics"
+    },
+    {
+      "id": "26",
+      "name": "Timmy Tamm's Drugs",
+      "symbol": "var_timmy_tamm_s_drugs"
+    },
+    {
+      "id": "27",
+      "name": "iskalidead?",
+      "symbol": "var_iskalidead_"
+    },
+    {
+      "id": "28",
+      "name": "Astro Suit",
+      "symbol": "var_astro_suit"
+    },
+    {
+      "id": "29",
+      "name": "iscoltondead?",
+      "symbol": "var_iscoltondead_"
+    },
+    {
+      "id": "30",
+      "name": "Gamemode",
+      "symbol": "var_gamemode"
+    },
+    {
+      "id": "31",
+      "name": "Checkpoints 2",
+      "symbol": "var_checkpoints_2"
+    },
+    {
+      "id": "32",
+      "name": "gamemodeload",
+      "symbol": "var_gamemodeload"
+    },
+    {
+      "id": "33",
+      "name": "spacejump",
+      "symbol": "var_spacejump"
+    }
+  ]
+}
