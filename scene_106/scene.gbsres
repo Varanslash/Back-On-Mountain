@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "bb270699-b71e-4e25-908a-f4f6972a65ff",
+  "_index": 105,
+  "name": "Scene 106",
+  "backgroundId": "c8c0d630-108f-4257-8342-74c922c9142b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 46,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f28+0012+0f2+0012+0f2+0012+0f2+0012+0f8+008+0f2+002+0f8+008+0f2+002+0f8+00c+0f8+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+002+0f2+006+0f4+002+0f4+002+0f2+006+0f4+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f8+004+0f2+002+0f2+002+0f8+004+0f2+002+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f4+00c+0f8+008+0f2+002+0f8+008+0f2+002+0f8+00c+0f8+00c+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_106",
+  "x": 392,
+  "y": 6272,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eb87c59f-8a4a-4b0f-af38-3a53401f2fc0"
+      },
+      "id": "40882219-f0fb-40f1-a247-3fb80d7cd571"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
