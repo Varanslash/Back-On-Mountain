@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "2d9a5ca6-7a1d-45df-b647-d6b1bc8b94b0",
+  "_index": 49,
+  "name": "Scene 50",
+  "backgroundId": "3ce63f36-9fda-4ab8-9361-a24f5d5cf75d",
+  "tilesetId": "",
+  "width": 62,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f8e+006+0f8+001a+0f16+006+0f8+001a+0f8+002+0fc+008+0f4+001c+0f8+002+0fc+008+0f4+001c+0f8+004+0f4+0010+0f2+00e+0f2+008+0f2+002+0f8+004+0f4+0010+0f2+00e+0f2+008+0f2+002+0f8+0028+0f2+008+0f2+002+0f8+0028+0f2+008+0f2+002+0f8+0010+0f2+00c+0f2+008+0f2+008+0f2+002+0f8+0010+0f2+00c+0f2+008+0f2+008+0f2+002+0f4+0012+0f4+008+0f6+008+0f2+008+0f2+0018+0f4+008+0f6+008+0f2+008+0f2+0016+0f8+004+0fa+006+0f2+008+0f2+0016+0f8+004+0fa+006+0f2+008+0f2+006+0f7c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_50",
+  "x": 2240,
+  "y": 3336,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
