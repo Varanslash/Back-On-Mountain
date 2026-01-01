@@ -1,0 +1,42 @@
+﻿GameboyMemory:FF00:JOYP_FF00:Joypad
+GameboyMemory:FF01:SB_FF01:Serial Data
+GameboyMemory:FF02:SC_FF02:Serial Control
+GameboyMemory:FF04:DIV_FF04:Divider
+GameboyMemory:FF05:TIMA_FF05:Timer Counter
+GameboyMemory:FF06:TMA_FF06:Timer Modulo
+GameboyMemory:FF07:TAC_FF07:Timer Control
+GameboyMemory:FF0F:IF_FF0F:Interrupt Flag
+GameboyMemory:FF10:NR10_FF10:Channel 1 Sweep
+GameboyMemory:FF11:NR11_FF11:Channel 1 Length/Wave Pattern Duty
+GameboyMemory:FF12:NR12_FF12:Channel 1 Volume Envelope
+GameboyMemory:FF13:NR13_FF13:Channel 1 Frequency Low
+GameboyMemory:FF14:NR14_FF14:Channel 1 Frequency High
+GameboyMemory:FF16:NR21_FF16:Channel 2 Length/Wave Pattern Duty
+GameboyMemory:FF17:NR22_FF17:Channel 2 Volume Envelope
+GameboyMemory:FF18:NR23_FF18:Channel 2 Frequency Low
+GameboyMemory:FF19:NR24_FF19:Channel 2 Frequency High
+GameboyMemory:FF1A:NR30_FF1A:Channel 3 On/Off 
+GameboyMemory:FF1B:NR31_FF1B:Channel 3 Length
+GameboyMemory:FF1C:NR32_FF1C:Channel 3 Output Level
+GameboyMemory:FF1D:NR33_FF1D:Channel 3 Frequency Low
+GameboyMemory:FF1E:NR34_FF1E:Channel 3 Frequency High
+GameboyMemory:FF20:NR41_FF20:Channel 4 Length
+GameboyMemory:FF21:NR42_FF21:Channel 4 Volume Envelope
+GameboyMemory:FF22:NR43_FF22:Channel 4 Polynomial Counter
+GameboyMemory:FF23:NR44_FF23:Channel 4 Loop
+GameboyMemory:FF24:NR50_FF24:Channel Volume
+GameboyMemory:FF25:NR51_FF25:Channel Left/Right
+GameboyMemory:FF26:NR52_FF26:Channel On/Off
+GameboyMemory:FF40:LCDC_FF40:LCD Control
+GameboyMemory:FF41:STAT_FF41:LCD Status
+GameboyMemory:FF42:SCY_FF42:Scroll Y
+GameboyMemory:FF43:SCX_FF43:Scroll X
+GameboyMemory:FF44:LY_FF44:LCD Y-Coordinate
+GameboyMemory:FF45:LYC_FF45:LY Compare
+GameboyMemory:FF46:DMA_FF46:OAM DMA Start
+GameboyMemory:FF47:BGP_FF47:BG Palette Data
+GameboyMemory:FF48:OBP0_FF48:Object Palette 0 Data
+GameboyMemory:FF49:OBP1_FF49:Object Palette 1 Data
+GameboyMemory:FF4A:WY_FF4A:Window Y Position
+GameboyMemory:FF4B:WX_FF4B:Window X Position
+GameboyMemory:FFFF:IE_FFFF:Interrupt Enable
